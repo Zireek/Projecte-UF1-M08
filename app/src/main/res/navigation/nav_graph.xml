@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/pantalla_inicioFragment">
+
+    <fragment
+        android:id="@+id/recyclerElementosFragment"
+        android:name="com.company.room.RecyclerElementosFragment"
+        android:label="fragment_recycler_elementos"
+        tools:layout="@layout/fragment_recycler_elementos" />
+    <fragment
+        android:id="@+id/recyclerValoracionFragment"
+        android:name="com.company.room.RecyclerValoracionFragment"
+        android:label="RecyclerValoracionFragment"
+        tools:layout="@layout/fragment_recycler_elementos" />
+    <fragment
+        android:id="@+id/recyclerBuscarFragment"
+        android:name="com.company.room.RecyclerBuscarFragment"
+        android:label="RecyclerBuscarFragment"
+        tools:layout="@layout/fragment_recycler_elementos" />
+
+    <action
+        android:id="@+id/action_mostrarElementoFragment"
+        app:destination="@id/mostrarElementoFragment" />
+    <action
+        android:id="@+id/action_nuevoElementoFragment"
+        app:destination="@id/nuevoElementoFragment" />
+
+    <fragment
+        android:id="@+id/nuevoElementoFragment"
+        android:name="com.company.room.NuevoElementoFragment"
+        android:label="fragment_nuevo_elementok"
+        tools:layout="@layout/fragment_nuevo_elemento" />
+    <fragment
+        android:id="@+id/mostrarElementoFragment"
+        android:name="com.company.room.MostrarElementoFragment"
+        android:label="fragment_mostrar_elemento"
+        tools:layout="@layout/fragment_mostrar_elemento" >
+        <action
+            android:id="@+id/action_mostrarElementoFragment_to_imagen_elementoFragment"
+            app:destination="@id/imagen_elementoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imagen_elementoFragment"
+        android:name="com.company.room.imagen_elementoFragment"
+        android:label="fragment_imagen_elemento"
+        tools:layout="@layout/fragment_imagen_elemento" />
+    <fragment
+        android:id="@+id/pantalla_inicioFragment"
+        android:name="com.company.room.pantalla_inicioFragment"
+        android:label="fragment_pantalla_inicio"
+        tools:layout="@layout/fragment_pantalla_inicio" >
+        <action
+            android:id="@+id/action_pantalla_inicioFragment_to_recyclerElementosFragment"
+            app:destination="@id/recyclerElementosFragment" />
+        <action
+            android:id="@+id/action_pantalla_inicioFragment_to_escuderias_fragment"
+            app:destination="@id/escuderias_fragment" />
+        <action
+            android:id="@+id/action_pantalla_inicioFragment_to_pilotos_fragment"
+            app:destination="@id/pilotos_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/escuderias_fragment"
+        android:name="com.company.room.escuderias_fragment"
+        android:label="fragment_escuderias_fragment"
+        tools:layout="@layout/fragment_escuderias_fragment" />
+    <fragment
+        android:id="@+id/pilotos_fragment"
+        android:name="com.company.room.pilotos_fragment"
+        android:label="fragment_pilotos_fragment"
+        tools:layout="@layout/fragment_pilotos_fragment" />
+</navigation>

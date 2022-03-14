@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".escuderias_fragment">
+
+    <ImageView
+        android:id="@+id/ferrari"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ferrari" />
+
+    <ImageView
+        android:id="@+id/mercedes"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mercedes" />
+
+    <ImageView
+        android:id="@+id/mclaren"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/mclaren" />
+
+    <ImageView
+        android:id="@+id/redbull"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|center"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/redbull" />
+
+    <ImageView
+        android:id="@+id/astonmartin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="155dp"
+        android:src="@drawable/astonmartin" />
+
+    <ImageView
+        android:id="@+id/williams"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="500dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/williams" />
+
+    <TextView
+        android:id="@+id/escuderias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:textColor="@color/black"
+        android:textSize="70sp"
+        android:layout_marginTop="15dp"
+        android:text="Escuderias" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:text="Ferrari" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:text="Mercedes" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:text="Red Bull" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="left|center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="255dp"
+        android:layout_height="wrap_content"
+        android:text="McLaren" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="255dp"
+        android:layout_height="wrap_content"
+        android:text="Aston Martin" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="255dp"
+        android:layout_height="wrap_content"
+        android:text="Williams" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="229dp"
+        android:layout_height="181dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/cocheescuderias" />
+
+</FrameLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pilotos_fragment">
+
+
+    <ImageView
+        android:id="@+id/pilotos"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/pilotos1" />
+
+    <TextView
+        android:id="@+id/pilotosd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"
+        android:text="Piloto destacado: " />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="144dp"
+        android:layout_height="147dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/alonso" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="180dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: Fernando Alonso" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="180dp"
+        android:textColor="@color/black"
+        android:text="Años: 40" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="180dp"
+        android:textColor="@color/black"
+        android:text="Escuderia: Alpine" />
+    <TextView
+        android:id="@+id/coche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="490dp"
+        android:text="Coche : " />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="550dp"
+        android:src="@drawable/cochealp" />
+
+</FrameLayout>
